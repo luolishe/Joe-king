@@ -1,0 +1,22 @@
+#update_version img{margin:0px 0 15px }
+#update_version a{
+	width:30%;height:35px;
+	border-radius:3px;
+	text-align:center;
+	line-height:35px;
+	font-size:9pt;
+	color:#fff;
+	font-weight: 700;
+	}
+.blog_link{
+	background-color:#2ba9fa
+	}
+.blog_link,.cms_link{
+	float:left;margin-right:5%
+	}
+.cms_link{
+	background-color:#ff6969
+}
+.grid_link{
+	float:left;background-color:#70c041
+	}
