@@ -1,0 +1,8 @@
+.yiyan-box{padding:10px 15px;min-height:20px;}
+.them-box{margin-bottom:20px;}
+.radius8{border-radius:var(--main-radius);}
+.main-shadow{box-shadow: 0 0 10px var(--main-shadow);}
+.main-shadow{transition:box-shadow.3s;}
+.text-center{text-align: center;}
+
+.qinian{animation: light 4s ease-in-out infinite; transition: 0.5s;}@keyframes light{0%{box-shadow: 0 0 4px #f00;} 25%{box-shadow: 0 0 16px #0f0;} 50%{box-shadow: 0 0 4px #00f;} 75%{box-shadow: 0 0 16px #0f0;} 100%{box-shadow: 0 0 4px #f00;}}
