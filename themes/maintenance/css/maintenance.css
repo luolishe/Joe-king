@@ -1,0 +1,159 @@
+@charset "utf-8";
+	/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,button {
+	font-family:"微软雅黑","宋体",Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color: #333;
+	margin:0;
+	padding:0;
+}
+/*body {
+	}*/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul,li {
+	list-style:none;
+}
+caption {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+abbr,acronym {
+	border:0;
+}
+a img {
+	border:none;
+}
+ul,ol {
+	list-style:none;
+}
+input,textarea {
+	outline:none;
+}
+a:link,a:visited,a:active {
+	text-decoration:none;
+}
+a {
+	cursor:pointer;
+}
+a {
+	color:#575757;
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+body{
+	background: url(https://cdn.jsdelivr.net/gh/luolishe/Joe-king@main/themes/maintenance/images/bg.jpg) center no-repeat;
+	background-size: 100% 100%;
+}
+.wraper{
+	    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+	text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    margin-left: -228px;
+    z-index: 9999;
+    }
+.logo p{
+	font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 56px;
+}
+.ad_img{
+	position: relative;
+	width: 1440px;
+	height: 620px;
+    margin: 0 auto;
+    margin-top:8%;
+    background: url(https://cdn.jsdelivr.net/gh/luolishe/Joe-king@main/themes/maintenance/images/pic.png) center no-repeat;
+}
+.ad_img img{
+	position: absolute;
+	top: 214px;
+    left: 642px;
+}
+.ad_font{
+	width: 950px;
+    position: absolute;
+    top: 259px;
+    font-size: 14px;
+    line-height: 28px;
+    left: 50%;
+    margin-left: -465px;
+}
+.ad_font p{
+	
+}
+.wangzhi{
+	color: #ef4960;
+}
+.xitong{
+	width: 100%;
+	text-align: center;
+}
+.xitong a{
+	color: #ef4960;
+    font-size: 18px;
+    margin: 0 16px;
+    font-weight: bold;
+}
+.ad_font .tipInfo{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #3c237d;
+}
+
+.clear {
+	clear:both;
+	overflow:hidden;
+	font-size:1px;
+}
+.left,.fl {
+	float:left;
+	display:inline;
+}
+.right,.fr {
+	float:right;
+	display:inline;
+}
+/*form {
+	display:inline-block;
+}
+*/
+strong,b {
+	font-weight:bold;
+}
+.cl {
+	clear:both;
+}
+@media screen and (max-width: 600px) {
+    .ad_img {
+        width: 1043px!important;
+        margin-top: 52%!important;
+    }
+    .ad_img img {
+        left: 440px!important;
+    }
+}
