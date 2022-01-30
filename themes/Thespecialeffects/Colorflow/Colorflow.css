@@ -1,0 +1,38 @@
+.text {
+    font-size: 32px;
+    text-transform: uppercase;
+    fill: none;
+    stroke-width: 1px;
+    stroke-dasharray: 90 310;
+    animation: dash 6s infinite linear;
+}
+
+.text-1 {
+    stroke: #3498db;
+    text-shadow: 0 0 1px #3498db;
+    animation-delay: -1.5s;
+}
+
+.text-2 {
+    stroke: #e74c3c;
+    text-shadow: 0 0 1px #f39c12;
+    animation-delay: -3s;
+}
+
+.text-3 {
+    stroke: #e74c3c;
+    text-shadow: 0 0 1px #e74c3c;
+    animation-delay: -4.5s;
+}
+
+.text-4 {
+    stroke: #9b59b6;
+    text-shadow: 0 0 1px #9b59b6;
+    animation-delay: -6s;
+}
+
+@keyframes dash {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
