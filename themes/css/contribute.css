@@ -1,0 +1,288 @@
+@media (min-width: 1200px)
+.joe_container {
+    max-width: 1140px;
+    margin-top: 105px;
+}
+
+@media (min-width: 992px)
+.joe_container {
+    max-width: 960px;
+    margin-top: 105px;
+}
+@media (min-width: 768px)
+.joe_container {
+    max-width: 720px;
+    margin-top: 105px;
+}
+@media (min-width: 576px)
+.joe_container {
+    max-width: 540px;
+    margin-top: 55px;
+}
+.joe_container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: thin;
+}
+
+.joe_main {
+    min-width: 0;
+    flex: 1;
+    padding: 15px 0;
+}
+body {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    cursor: url(https://cat.dorcandy.cn/ziyuan/files/dorcandy.cur),default;
+}
+
+html {
+    --theme: #42a1ff;
+    --background: #fff;
+    --main: #303133;
+    --routine: #606266;
+    --minor: #909399;
+    --seat: #c0c4cc;
+    --classA: #dcdfe6;
+    --classB: #e4e7ed;
+    --classC: #ebeef5;
+    --classD: #f2f6fc;
+    --radius-wrap: 12px;
+    --radius-inner: 4px;
+    --text-shadow: 0 1px 2px rgba(0,0,0,.25);
+    --box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    --color-pink: #f888ffb5;
+    --color-purple: #8880ff;
+    --color-orange: #ffa07a;
+    --color-green: #67c23a;
+    --color-red: #f16a6a;
+}
+
+.joe_detail {
+    background: var(--background);
+    border-radius: var(--radius-wrap);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.joe_detail__title {
+    font-size: 32px;
+    color: var(--main);
+    text-shadow: var(--text-shadow);
+    text-align: center;
+    margin-bottom: 15px;
+    word-break: break-all;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
+
+.tougao__form {
+    margin: 20px 0;
+}
+/*标题框大小+颜色+背景颜色*/
+.tougao__form input {
+    width: 80%;
+    height: 50px;
+   /*background: #f3f5f6;*/
+    background: var(--text-shadow);
+    border-bottom: 0px solid rgba(0, 0, 0, .05);
+    border-top: 0px solid #ccc;
+    border-left: 0px solid #ccc;
+    border-right: 0px solid #ccc;
+    color: #364e65;
+    border-radius: 20px;
+}
+
+
+#chakhsu{
+    color: #7485a7;
+}
+
+
+
+.tougao__form .tips {
+    margin-top: 10px;
+    color: #9d9d9d;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.pos_z {
+    position: relative;
+}
+.pos_z i {
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    color: var(--theme);
+    margin-top: 7px;
+}
+p {
+    cursor: url(https://cat.dorcandy.cn/ziyuan/files/text.cur),text;
+}
+.joe_detail__count {
+    display: none;
+}
+.joe_detail__count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--classC);
+}
+.joe_aside__item.author {
+    background: var(--background);
+    padding: 45px 15px 15px;
+}
+.joe_aside__item:last-child {
+    position: -webkit-sticky;
+    position: sticky;
+    margin-bottom: 0;
+    transition: top .35s;
+}
+.joe_aside__item {
+    position: relative;
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: var(--radius-wrap);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+/*头像开始*/
+.joe_aside__item.author .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/*头像结束*/
+
+/*作者名称开始*/
+
+
+/*作者名称关键代码*/
+.joe_aside__item.author .user .link {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 1000;
+}
+.user .link {
+    background-image: linear-gradient(to left,#ff4500,orange,gold,#90ee90,cyan,#1e90ff,#9370db,hotpink,#ff4500);
+    background-size: 110vw;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    -webkit-animation: rainbowan 10s linear 0s infinite;
+    animation: rainbowan 60s linear 0s infinite;
+}
+@keyframes rainbowan{to{background-position:-2000vw}}
+/*作者名称关键代码结束*/
+
+
+.joe_aside__item.author .user {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.joe_aside__item.author .user .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 20px 0 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+/*
+.joe_aside__item.author .user .link:hover{
+	text-decoration:underline
+}
+
+.joe_aside__item.author .user .avatar:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg)
+}
+.joe_aside__item.author .user .avatarout {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	transition: -webkit-transform .75s;
+	transition: transform .75s;
+	transition: transform .75s,-webkit-transform .75s;
+	padding: 5px
+}
+.joe_aside__item.author .user .motto {
+	color: var(--main);
+	text-align: center;
+	word-break: break-all
+}
+.joe_aside__item.author .count {
+	width: 100%;
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid var(--classC)
+}
+.joe_aside__item.author .count .item {
+	min-width: 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--routine);
+	font-size: 12px
+}
+*/
+/*作者名称结束*/
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none!important;
+}
