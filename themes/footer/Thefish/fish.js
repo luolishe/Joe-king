@@ -304,6 +304,7 @@ FISH.prototype = {
         this.controlStatus(context);
     }
 };
-$(function () {
+/*$(function () {
     RENDERER.init();
 });
+*/
