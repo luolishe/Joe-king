@@ -61,7 +61,7 @@
 /* 游戏标题 颜色 */
 .steam-game-info .steam-game-title a {
     /* color: #6daaff; */
-    color: #fffffff7;
+    color: #fd75ff;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
