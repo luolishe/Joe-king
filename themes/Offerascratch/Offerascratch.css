@@ -1,0 +1,257 @@
+.shake_hands {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+
+.shake_hands .shake_hands_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.shake_hands .shake_hands_popup {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+
+.shake_hands .shake_hands_title {
+    padding: 8px 20px;
+    width: 105px;
+    height: 32px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: #ff8382;
+    line-height: 1;
+}
+
+.shake_hands .shake_hands_downarrow {
+    margin-left: 25px;
+    position: relative;
+    top: -1px;
+    width: 10px;
+    border-color: transparent #ff8382;
+    border-width: 0 0 10px 15px;
+    border-style: solid;
+}
+
+
+.shake_hands .empty-hand {
+    background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/94119/29/31388/8262/630c3ae9E383cbb87/9983d8c2c9c9ed6e.png);
+    -webkit-animation-name: oxxo;
+    animation-name: oxxo;
+}
+
+.shake_hands .img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 75%;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.shake_hands .shake_hands_year_popup {
+	top: -20px
+}
+
+.shake_hands .shake_hands_popup.show {
+	display: block
+}
+.shake_hands .gift-hand {
+	background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/118844/23/30347/10845/630c3b07E5c410861/fc020fc17401b635.png);
+	-webkit-animation-name: oxxo2;
+	animation-name: oxxo2
+}
+
+.shake_hands .xmas-hand {
+	background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/7950/30/19604/10760/630c3b1cEbbf6ef6f/61183cc8931c9353.png);
+	-webkit-animation-name: oxxo3;
+	animation-name: oxxo3
+}
+
+.shake_hands .newyear {
+	background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/196654/35/27550/8514/630c3b3aEd70bfa55/1d6d10138d85eef7.png);
+	-webkit-animation-name: new-year-animate;
+	animation-name: new-year-animate
+}
+
+
+
+
+
+@-webkit-keyframes oxxo {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/94119/29/31388/8262/630c3ae9E383cbb87/9983d8c2c9c9ed6e.png)
+	}
+
+	20% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/104700/3/31393/8779/630c3b56E87b967d2/d9bacff5ab38f5ed.png)
+	}
+
+	100% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/129354/15/26042/8041/630c3b76Effb755ee/30724eb7cf666f36.png)
+	}
+}
+
+@keyframes oxxo {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/94119/29/31388/8262/630c3ae9E383cbb87/9983d8c2c9c9ed6e.png)
+	}
+
+	20% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/104700/3/31393/8779/630c3b56E87b967d2/d9bacff5ab38f5ed.png)
+	}
+
+	100% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/129354/15/26042/8041/630c3b76Effb755ee/30724eb7cf666f36.png)
+	}
+}
+
+@-webkit-keyframes oxxo2 {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/118844/23/30347/10845/630c3b07E5c410861/fc020fc17401b635.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/91096/10/30503/11359/630c3b92E95a44ad4/d6d2d745d0fed248.png)
+	}
+
+	100% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/59791/7/21511/11152/630c3bf5E61d37eab/f773be1a043b00c9.png)
+	}
+}
+
+@keyframes oxxo2 {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/118844/23/30347/10845/630c3b07E5c410861/fc020fc17401b635.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/91096/10/30503/11359/630c3b92E95a44ad4/d6d2d745d0fed248.png)
+	}
+
+	100% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/59791/7/21511/11152/630c3bf5E61d37eab/f773be1a043b00c9.png)
+	}
+}
+
+@-webkit-keyframes oxxo3 {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/7950/30/19604/10760/630c3b1cEbbf6ef6f/61183cc8931c9353.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/185968/25/28115/12018/630c3c7bE9bb991b1/b1687b1444bf9b94.png)
+	}
+
+	100% {
+		background-image: url(hhttps://dd-static.jd.com/ddimg/jfs/t1/105784/11/30970/11173/630c3cf5E1b16685e/eab2136d6862ed9b.png/)
+	}
+}
+
+@keyframes oxxo3 {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/7950/30/19604/10760/630c3b1cEbbf6ef6f/61183cc8931c9353.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/185968/25/28115/12018/630c3c7bE9bb991b1/b1687b1444bf9b94.png)
+	}
+
+	100% {
+		background-image: url(hhttps://dd-static.jd.com/ddimg/jfs/t1/105784/11/30970/11173/630c3cf5E1b16685e/eab2136d6862ed9b.png)
+	}
+}
+
+@-webkit-keyframes new-year-animate {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/196654/35/27550/8514/630c3b3aEd70bfa55/1d6d10138d85eef7.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/178666/35/28577/9236/630c3d69Ee1ab73dc/c59883cae03f10b7.png)
+	}
+
+	100% {
+		background-image: url(https://uimg.jav101.com/img5e255e732c498.png)
+	}
+}
+
+@keyframes new-year-animate {
+	0% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/196654/35/27550/8514/630c3b3aEd70bfa55/1d6d10138d85eef7.png)
+	}
+
+	50% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/178666/35/28577/9236/630c3d69Ee1ab73dc/c59883cae03f10b7.png)
+	}
+
+	100% {
+		background-image: url(https://dd-static.jd.com/ddimg/jfs/t1/87735/14/23732/8551/630c3d99E4151cb38/9cecd5db9c20130a.png)
+	}
+}
+
+
+@media (max-width:999px) {
+	.shake_hands {
+		width: 150px;
+		height: 150px
+	}
+
+	.shake_hands .shake_hands_popup {
+		top: 5px;
+		left: 70px
+	}
+}
+
+@media (max-width:767px) {
+	.shake_hands {
+		width: 70px;
+		height: 70px;
+		bottom: 40px
+	}
+
+	.shake_hands.shake_hands_year {
+		width: 80px;
+		height: 80px
+	}
+
+	.shake_hands .shake_hands_popup {
+		top: -10px;
+		left: 35px
+	}
+
+	.shake_hands .shake_hands_year_popup {
+		top: -35px
+	}
+
+	.shake_hands .shake_hands_title {
+		padding: 8px;
+		width: 96px;
+		height: 30px;
+		font-size: 14px
+	}
+
+	.shake_hands .shake_hands_downarrow {
+		border-width: 0 0 10px 15px
+	}
+
+	.shake_hands .img {
+		width: 100%;
+		height: 100%
+	}
+}
